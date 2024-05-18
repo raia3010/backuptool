@@ -1,0 +1,126 @@
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 09:26:01] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:26:01
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:26:01/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:26:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:26:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 09:26:02] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 09:28:01] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:28:01
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:28:01/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:28:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:28:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 09:28:02] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 10:00:28] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:00:28
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:00:28/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:00:28/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:00:28/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 10:00:29] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
+-------------------------Start Cleanup Task ID 1 in Project ID 1 in Local Storage
+------------------------------------Begin cleanup directory /home/ubuntu/sftp_ver2/pve1/dump with 2 retention---------------
+[2024-05-17 10:00:46] There are 1 folders need to be deleted
+/home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_09:26:01/
+[2024-05-17 10:00:46] Deleting...
+[2024-05-17 10:00:46] Done
+------------------------End cleanup directory /home/ubuntu/sftp_ver2/pve1/dump with 2 retention----------------
+-----------------------Finish Cleanup Task ID 1 in Project ID 1 in Local Storage 
+
+-------------------------Start Cleanup Task ID 1 in Project ID 1 in Remote Storage
+------------------------------------Begin cleanup directory pve:backup/pve1/dump with 3 retention---------------
+[2024-05-17 10:01:08] There are 4 folders need to be deleted
+2024-05-17_07:56:26 2024-05-17_07:14:06 2024-05-17_07:13:51 2024-05-17_05:02:09
+[2024-05-17 10:01:08] Deleting...
+[2024-05-17 10:01:22] Done
+------------------------------------End cleanup directory pve:backup/pve1/dump with 3 retention---------------
+-------------------------Finish Cleanup Task ID 1 in Project ID 1 in Remote Storage 
+
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 10:04:23] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:04:23
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:04:23/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:04:23/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:04:23/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 10:04:24] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 10:06:01] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:06:01
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:06:01/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:06:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:06:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 10:06:02] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 10:08:02] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:08:02
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:08:02/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:08:02/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:08:02/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 10:08:03] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 10:10:01] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:10:01
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:10:01/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:10:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:10:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 10:10:02] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 10:12:01] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:12:01
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:12:01/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:12:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:12:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 10:12:02] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
+-------------------------Start Backup Task ID 1 in Project ID 1 to Local Storage
+[2024-05-17 10:35:01] Begin backup folder /var/lib/vz/dump to Localstorage
+Connected to pve1.
+sftp> mget /var/lib/vz/dump/* /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:35:01
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.log to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:35:01/vzdump-lxc-101-2024_05_08-08_48_53.log
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:35:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst
+Fetching /var/lib/vz/dump/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes to /home/ubuntu/sftp_ver2/pve1/dump/2024-05-17_10:35:01/vzdump-lxc-101-2024_05_08-08_48_53.tar.zst.notes
+sftp> bye
+[2024-05-17 10:35:02] End backup folder /var/lib/vz/dump to Localstorage
+
+-----------------------Finish Backup Task ID 1 in Project ID 1 to Local Storage
+
